@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Shader">
+      <UniqueIdentifier>{8366c3f5-d3cb-4290-891e-f8af8ee471f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\opengl\src\glad.c">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ressource.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLevels.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BallObject.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleGenerator.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ressource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLevels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BallObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\RenderShader.fs">
+      <Filter>Resource Files\Source Files\Shader</Filter>
+    </None>
+    <None Include="Shader\RenderShader.vs">
+      <Filter>Resource Files\Source Files\Shader</Filter>
+    </None>
+    <None Include="Shader\ParticleShader.fs">
+      <Filter>Resource Files\Source Files\Shader</Filter>
+    </None>
+    <None Include="Shader\ParticleShader.vs">
+      <Filter>Resource Files\Source Files\Shader</Filter>
+    </None>
+    <None Include="Shader\PostShader.vs">
+      <Filter>Resource Files\Source Files\Shader</Filter>
+    </None>
+    <None Include="Shader\PostShader.fs">
+      <Filter>Resource Files\Source Files\Shader</Filter>
+    </None>
+    <None Include="bin\BreakOutOPGL.exe" />
+    <None Include="bin\BreakOutOPGL.pdb" />
+    <None Include="x64\Release\BreakOutOPGL.iobj" />
+    <None Include="x64\Release\BreakOutOPGL.exe.recipe" />
+    <None Include="x64\Release\BreakOutOPGL.ipdb" />
+    <None Include="x64\Release\vc143.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="level\gaps.txt" />
+    <Text Include="level\standart.txt" />
+    <Text Include="x64\Release\BreakOutOPGL.Build.CppClean.log" />
+    <Text Include="x64\Release\BreakOutOPGL.log" />
+    <Text Include="x64\Release\BreakOutOPGL.vcxproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texture\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\background.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\block.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\block_solid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\paddle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\particle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\floor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="x64\Release\BallObject.obj" />
+    <Object Include="x64\Release\FrameBuffer.obj" />
+    <Object Include="x64\Release\Game.obj" />
+    <Object Include="x64\Release\GameObject.obj" />
+    <Object Include="x64\Release\GameLevels.obj" />
+    <Object Include="x64\Release\glad.obj" />
+    <Object Include="x64\Release\main.obj" />
+    <Object Include="x64\Release\ParticleGenerator.obj" />
+    <Object Include="x64\Release\Ressource.obj" />
+    <Object Include="x64\Release\Shader.obj" />
+    <Object Include="x64\Release\SpriteRenderer.obj" />
+    <Object Include="x64\Release\Texture.obj" />
+  </ItemGroup>
+</Project>
